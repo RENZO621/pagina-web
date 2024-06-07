@@ -1,0 +1,78 @@
+.servicios2{
+    background: #e1f1ee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350vh;
+}
+
+.servicios2 h1{
+    background-color: #ff8177;
+    background-image: linear-gradient(to right, #4aca29 0%, #1ad314 0%, #31e93a 21%,
+     #18c727 52%, #23750a 78%, #185808 100%);
+     background-size: 100%;
+     margin-bottom: 5rem;
+     font-size: 4rem;
+     -webkit-background-clip: text;
+     -moz-background-clip: text;
+     -webkit-text-fill-color: transparent ;
+     -moz-text-fill-color: transparent;
+
+}
+.servicios__container2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.servicios_card2{
+    margin: 0.5rem;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    background-image:  linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%),
+    url(/images/dolomita\ estabilizador.jpeg);
+    vertical-align: bottom;
+    background-size: cover;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+}
+
+.servicios_card2:nth-child(2){
+    background-image:  linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%),
+    url(/images/FERTILIZANTE.jpg);
+}
+
+.servicios_card2:nth-child(3){
+    background-image:  linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%),
+    url(/images/dolomita+cal.jpg);
+}
+
+.servicios2 h2{
+    color: #ffffff;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.servicios_card2 p{
+    position: absolute;
+    top: 170px;
+    left: 10px;
+
+}
+
+.servicios_card2 p2{
+    position: absolute;
+    top: 420px;
+    left: 30px;
+
+}
+
+.servicios_card2 p3{
+    position: absolute;
+    top: 420px;
+    left: 30px;
+
+}
